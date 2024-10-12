@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Job Card - Vehicle Service Center</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Styling for the footer navy blue box */
+        footer {
+            background-color: #001f3f; /* Navy blue background */
+            color: white; /* White text */
+            padding: 20px; /* Padding inside the box */
+            text-align: left; /* Center align the text */
+            border-radius: 10px; /* Rounded edges */
+            max-width: 1920px; /* Fixed width for better appearance */
+            margin: 30px auto; /* Center the box */
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Vehicle Service Center Logo" class="logo">
+    </header>
+    <h2>Create Job Card</h2>
+    <form id="job-card-form">
+        <input type="text" id="jobCardNumber" placeholder="Job Card Number" required>
+        <input type="text" id="customerName" placeholder="Customer Name" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="tel" id="mobileNo" placeholder="Mobile Number" required>
+        <input type="text" id="carModel" placeholder="Car Model" required>
+        <input type="text" id="chassisNo" placeholder="Chassis Number" required>
+        <input type="text" id="serviceType" placeholder="Service Type" required>
+        <input type="number" id="mileage" placeholder="Mileage" required>
+
+        <h3>Job Card Activities</h3>
+<div id="activity-list">
+    <div class="activity-entry">
+        <input type="text" name="activity" placeholder="Activity" required>
+        <input type="number" name="cost" placeholder="Cost" required>
+    </div>
+</div>
+<button type="button" onclick="addActivity()">+</button>
+<button type="submit">Submit Job Card</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p><strong>KLN Car Service</strong></p>
+        <p><strong>Address:</strong> No. 1, Raphael's road, Jeppiaar Nagar, Semmanchery, Chennai - 600119</p>
+        <p><strong>Phone No.:</strong> 8925801559</p>
+        <p><strong>Email ID:</strong> theklnarayanan@gmail.com</p>
+        <p><strong>Done by:</strong> K. Lakshmi Narayanan</p>
+        <p><strong>Register No.:</strong> 42612028</p>
+    </footer>
+</body>
+</html>
