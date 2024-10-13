@@ -1,5 +1,5 @@
 # Vehicle-Service-App
-![home screenshot](https://ibb.co/mz4HXhz)
+![home screenshot](https://i.ibb.co/bdXr2Nd/Screenshot-2024-10-13-234825.png)
 ## Prerequisites:
 - node.js (20.18.0)
 - mongodb
